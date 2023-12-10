@@ -1,0 +1,21 @@
+{
+  "name": "langchain-ia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "npx tsc && node --env-file=.env build/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@joel-luis/eslint-config": "^0.1.11",
+    "@types/node": "^20.10.4",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "langchain": "^0.0.203"
+  }
+}
